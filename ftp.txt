@@ -1,6 +1,0 @@
-Host:
-03bda1b.netsolhost.com
-User:
-ftp2182996
-Pass:
-You know the password!
