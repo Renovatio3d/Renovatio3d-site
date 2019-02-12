@@ -1,0 +1,62 @@
+var interval = undefined;
+$(document).ready(function () {
+    interval = setInterval(getNext, 2000); // milliseconds
+    $('#next').on('click', getNext);
+    $('#prev').on('click', getPrev);
+});
+
+function getNext() {
+    var $curr = $('.slideshow img:visible'),
+        $next = ($curr.next().length) ? $curr.next() : $('.slideshow img').first();
+
+    transition($curr, $next);
+}
+
+function getPrev() {
+    var $curr = $('.slideshow img:visible'),
+        $next = ($curr.prev().length) ? $curr.prev() : $('.slideshow img').last();
+    transition($curr, $next);
+}
+
+function transition($curr, $next) {
+    clearInterval(interval);
+
+    $next.css('z-index', 2).fadeIn('slow', function () {
+        $curr.hide().css('z-index', 0);
+        $next.css('z-index', 1);
+    });
+
+}
+
+
+_________________________________________________
+html
+
+<div class="slideshow">
+    <img src="http://placehold.it/500x100/0000CD&text=1" width="500" height="100" alt="first image">
+    <img src="http://placehold.it/500x100/008000&text=2" width="500" height="100" alt="second image">
+    <img src="http://placehold.it/500x100/B22222&text=3" width="500" height="100" alt="third image">
+    <img src="http://placehold.it/500x100/F4A460&text=4" width="500" height="100" alt="fourth image">
+</div>
+<button id="prev">Prev</button>
+<button id="next">Next</button>
+
+
+______________________________________________
+CSS
+
+.slideshow {
+    position: relative;
+    /* necessary to absolutely position the images inside */
+    width: 500px;
+    /* same as the images inside */
+    height: 100px;
+}
+.slideshow img {
+    position: absolute;
+    display: none;
+}
+.slideshow img:first-child {
+    display: block;
+    /* overrides the previous style */
+}

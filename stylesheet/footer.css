@@ -1,0 +1,86 @@
+footer {
+	position: absolute;
+	background-color: #2a8593;
+	width: 100%;
+	height: 35px;
+}
+
+.wrap {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 13px;
+	text-transform: capitalize;
+	bottom: 0px;
+	color: #FFF;
+	z-index: 1;
+}
+.wrap li a span {
+	color: #FFF;
+}
+
+.wrap li {
+	display: inline;
+	margin-left: 12px;
+	position: relative;
+}
+
+.network  {
+	position: relative;
+	padding: 2px;
+	right: 228px;
+	width: 140px;
+	bottom: 0px;
+	background-color: #2a8593;
+	top: 12px;
+}
+.following {
+	padding: 12px;
+	cursor: pointer;
+	position: relative;
+	margin: 12px;
+}
+.development {
+	padding: 12px;
+	cursor: pointer;
+	position: relative;
+	margin: 12px;
+	color: #FFF;
+}
+
+.links {
+	position: absolute;
+	padding-bottom: 6px;
+	background-image: url(../themes/img/img-links.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 75px;
+	float: none;
+	height: 362px;
+	z-index: 104;
+	left: 0px;
+	background-attachment: scroll;
+}
+.arc {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	clip: rect(auto,44px,auto,auto);
+	margin-bottom: 8px;
+	padding: 0px;
+	margin-left: 0px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.links li ul {
+	position: relative;
+	height: 45px;
+	right: 67px;
+	width: 90px;
+}
+.links li {
+	position: absolute;
+	list-style-type: none;
+	width: 90px;
+}

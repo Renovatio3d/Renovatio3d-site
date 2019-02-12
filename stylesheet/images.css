@@ -1,0 +1,32 @@
+.content {
+	position: relative;
+	border: thin dotted #000;
+	height: 1300px;
+	margin: 3px;
+	z-index: -1;
+}
+#move-left {
+	position: absolute;
+	z-index: 1;
+	right: 0em;
+	cursor: pointer;
+}
+#move-right {
+	position: absolute;
+	cursor: pointer;
+}
+.dragon {
+	position: relative;
+	background-image: url(dragon%20anatomy/dragon-final.png);
+	background-repeat: no-repeat;
+	z-index: 1;
+	display: block;
+	width: 1583px;
+	height: 1300px;
+	background-position: center;
+}
+
+#ajax-content {
+	position: relative;
+	padding: 6px;
+}

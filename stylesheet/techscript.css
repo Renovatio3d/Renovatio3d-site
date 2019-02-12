@@ -1,0 +1,325 @@
+body, div, dl, dt, dd,  ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset,
+input, textarea, p, blockquote, th, td{
+	margin: 0;
+	padding: 0;
+}
+
+h1 ,h2,h3,h4,h5,h6{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	color: #666;
+	padding: 3px;
+	font-weight: normal;
+}
+.clearfix:after{content:".";display:block;height:0; clear:both;
+visibility:hidden}
+#work-nav {
+	background-color: #666;
+}
+#ajax-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 0px;
+	padding: 0px;
+	position: relative;
+	background-color: #FFFFFF;
+	min-width: 1583;
+	height: 100%;
+}
+#Wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1583px;
+	background-color: #FFFFFF;
+	margin-bottom: 0px;
+	background-image: url(../themes/renovatio3d/header%20img/renovatio3d.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	z-index: 4;
+	position: relative;
+	height: 1500px;
+}
+.content {
+	position: relative;
+	width: 1100px;
+	z-index: 4;
+	top: 325px;
+	left: 125px;
+	background-color: #FFF;
+	height: 900px;
+}
+#next {
+	top: 440px;
+	position: fixed;
+	width: 1583px;
+	height: 256px;
+	z-index: 4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.bw {
+	font-size: 16px;
+	color: #FFF;
+	left: 7px;
+	top: 560px;
+	float: left;
+	position: fixed;
+	z-index: 2;
+}
+
+.fw {
+	font-size: 16px;
+	color: #FFF;
+	right: 12px;
+	top: 560px;
+	position: fixed;
+	float: right;
+	z-index: 100;
+}
+#fbtn {
+	position: fixed;
+	float: left;
+	left: -95px;
+	
+}
+#bbtn {
+	float: right;
+	position: fixed;
+	right: -95px;
+}
+#background {
+	float: right;
+	position: fixed;
+	z-index: -1;
+	right: -100px;
+	top: 460px;
+}
+#foward {
+	position: fixed;
+	float: left;
+	left: -100px;
+	z-index: -1;
+	top: 460px;
+}
+#loader {
+	z-index: 1;
+	text-align: center;
+}
+.work-title {
+	float: right;
+	position: fixed;
+	z-index: 104;
+	margin-top: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	right: 180px;
+	color: #306;
+}
+/*a #Renovatio3d-images {
+
+opacity:0.4;
+filter:alpha(opacity=40); /* For IE8 and earlier 
+}
+a #Renovatio3d-images:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier 
+}*/
+
+header {
+	background-color: #2a8593;
+	position: fixed;
+	height: 40px;
+	width: 2560px;
+	top: 0px;
+	z-index: 106;
+}
+nav {
+	line-height: 12px;
+	z-index: 100;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+#TopMenu {
+	display: inline;
+	list-style-type: none;
+	margin: 3px;
+	position: relative;
+	width: 800px;
+	z-index: 104;
+	left: 25em;
+}
+
+#TopMenu li {
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 6px;
+	padding: 3px;
+	color: #FFF;
+	z-index: 100;
+}
+
+nav a, ul.nav a:visited {
+	display: block;
+	width: 80px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: #306;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+
+.title {
+	font-style: normal;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #306;
+}
+.Advertisements {
+	position: relative;
+	width: 200px;
+	float: right;
+	margin-right: 6em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: -92em;
+	background-color: #FFF;
+	box-shadow: 2px 2px 6px  #CCCCCC;
+}
+aside {
+	float: right;
+	padding: 8px;
+}
+
+section h1 a #Renovatio3d-images:hover {
+	box-shadow: 2px 2px 6px #306;
+}
+section {
+	margin: 6px;
+	padding: 6px;
+	width: 510px;
+	position: absolute;
+	box-shadow: 2px 2px 6px #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: 265px;
+	background-color: #FFF;
+	right: 28em;
+}
+.form {
+	margin: 6px;
+	padding: 6px;
+	width: auto;
+	position: absolute;
+	box-shadow: 2px 2px 6px #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: 300px;
+	background-color: #FFF;
+	right: 1%;
+	z-index: 100;
+}
+.aboutMe {
+	margin: 6px;
+	padding: 6px;
+	width: 876px;
+	position: absolute;
+	box-shadow: 2px 2px 6px #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: 70px;
+	background-color: #FFF;
+	right: 3em;
+}
+.link {
+	margin: 6px;
+	padding: 6px;
+	width: 700px;
+	position: absolute;
+	box-shadow: 2px 2px 6px #CCCCCC;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	top: 70px;
+	background-color: #FFF;
+	right: 8em;
+}
+
+
+p {
+	color: #666;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#button {
+	border: 1px solid #CCC;
+}
+
+#contact {
+	color: #999;
+	width: 425px;
+	position: relative;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-weight: normal;
+	font-variant: normal;
+	padding: 6px;
+	border: thin solid #CCC;
+	right: 0px;
+}
+#require-info {
+	position: absolute;
+	height: 98px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	right: 350px;
+	top: -70px;
+	margin-top: 43px;
+	z-index: 1;
+}
+#require-info ul  {
+	display: block;
+	color: #333;
+}
+#require-info ul li {
+	list-style-type: none;
+	margin-top: 28px;
+	z-index: 1;
+}
+h1 ul {z
+	display: block;
+	background-color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #999;
+	width: 250px;
+	margin-left: 50px;
+}
+h1 ul li {
+	list-style-type: none;
+	border: 1px dotted #CCC;
+	margin-top: 3px;
+	padding-left: 3px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GALLERY3d COLUMNS="13" xPOSITION="90" yPOSITION="90" WIDTH="199" HEIGHT="200">
+<IMAGE FULL="full_images/image1.png" THUMB="thumb_images/thumb1.png" />
+<IMAGE FULL="full_images/image2.png" THUMB="thumb_images/thumb2.png" />
+<IMAGE FULL="full_images/image3.png" THUMB="thumb_images/thumb3.png" />
+<IMAGE FULL="full_images/image4.png" THUMB="thumb_images/thumb4.png" />
+<IMAGE FULL="full_images/image5.png" THUMB="thumb_images/thumb5.png" />
+<IMAGE FULL="full_images/image6.png" THUMB="thumb_images/thumb6.png" />
+<IMAGE FULL="full_images/image7.png" THUMB="thumb_images/thumb7.png" />
+<IMAGE FULL="full_images/image8.png" THUMB="thumb_images/thumb8.png" />
+<IMAGE FULL="full_images/image9.png" THUMB="thumb_images/thumb9.png" />
+<IMAGE FULL="full_images/image10.png" THUMB="thumb_images/thumb10.png" />
+</GALLERY3d>
+

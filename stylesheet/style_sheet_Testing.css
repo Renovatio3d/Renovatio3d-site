@@ -1,0 +1,223 @@
+
+<style type="text/css">
+.clearfix:after{content:".";display:block;height:0; clear:both;
+visibility:hidden}
+
+body{ 
+	color:#000;
+	center top;
+}
+#bgstyle {
+    position:relative;
+    z-index:-1;
+	margin:0 auto;
+}
+ 
+#bgstyle IMG {
+    position:absolute;
+    top:0;
+    /*left:0;*/
+    z-index:8;
+    opacity:0.0;
+}
+ 
+#bgstyle IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+ 
+#bgstyle IMG.last-active {
+    z-index:9;
+}
+ 
+#bgstyle img {
+    /* Set rules to fill background */
+    min-height: 100%;
+	/*min-width: 1024px;*/
+    min-width: 1600px;
+ 
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+ 
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.Wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	background-image: url(file:///C|/wamp/www/Lloyd%27s_website/images/Lloyd%27s.png);
+	background-repeat: repeat-x;
+	background-position: right bottom;
+}
+header {
+	background-color: #000000;
+	position: relative;
+	height: 16px;
+	top: 0px;
+	z-index: 104;
+	margin: 0px;
+}
+nav {
+	line-height: 12px;
+	z-index: 100;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: relative;
+}
+#TopMenu {
+	display: inline;
+	list-style-type: none;
+	margin: 3px;
+	position: relative;
+	width: 800px;
+	z-index: 104;
+	left: 25em;
+}
+
+#TopMenu li {
+	display: inline;
+	position: relative;
+	float: left;
+	margin: 6px;
+	padding: 3px;
+	color: #FFF;
+	z-index: 100;
+	list-style-type: none;
+}
+.Lloyds.Alternative.Management {
+	display: block;
+	font-size: 14px;
+	float: left;
+	margin: auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position: relative;
+}
+
+nav a, ul.nav a:visited {
+	display: block;
+	width: 80px;
+	text-decoration: none;
+	background-color: #000000;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+section {
+}
+	#TopMenu  a:hover,#TopMenu ul  a:active, #TopMenu ul a:focus {
+	background-color: #014E42;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+nav a, ul.nav a:visited {
+	display: block;
+	width: 120px;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+	
+
+.content {
+	display: block;
+	position: relative;
+	width: 980px;
+	right: -50px;
+	margin-right: auto;
+	margin-left: auto;
+	top: 25px;
+}
+
+footer {
+	display: block;
+	background-color: #000;
+	float: none;
+	line-height: 48px;
+	margin: 0%;
+	padding: 3px;
+	color: #FFF;
+	position: relative;
+	height: 25px;
+}
+
+.copyright {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 0px;
+	font-weight: normal;
+	text-transform: capitalize;
+	bottom: 0px;
+	color: #FFF;
+	z-index: 101;
+	padding: 4px;
+	margin: 8px;
+}
+.copyright li {
+	display: inline;
+	margin-left: 12px;
+	position: relative;
+}
+
+h1 ,h2,h3,h4,h5,h6{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	padding: 3px;
+	font-style: normal;
+}
+
+p {
+	color: #666;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+	margin: 4px;
+	width: 988px;
+	background-color: #FFF;
+	position: relative;
+	box-shadow: 2px 2px 2px #CCCCCC;
+	padding-top: 12px;
+	padding-left: 12px;
+	padding-bottom: 12px;
+}
+a:link {
+	color: #FFF;
+}
+a:visited {
+	color: #FFF;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+</style>

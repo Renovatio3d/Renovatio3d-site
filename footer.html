@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name ="abstract" content = ""
+<meta name ="robots" content = " selection">
+<meta name ="robots" content = " index, follow">
+<meta name="keywords" content="technical 3d artist, web developer, character rigging,graphic designer, digital sculpting, 3d artist, graphic design, video editing">
+<meta name="description" content="Shalu J. Nah Characters Technical Artist, and experienced Website Developer. Eight years experience in CGI computer graphic software  Autodesk Maya. Along side Pixologic  Zbrush, and Adobe "> 
+<title>Technical Artist & Developer</title>
+<style type="text/css">
+footer {
+	position: absolute;
+	background-color: #2a8593;
+	width: 100%;
+	height: 35px;
+	
+}
+
+.wrap {
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 13px;
+	font-weight: normal;
+	text-transform: capitalize;
+	bottom: 0px;
+	color: #FFF;
+	
+}
+.wrap li {
+	display: inline;
+	margin-left: 12px;
+	position: relative;
+}
+#text {
+	position: relative;
+	height: 500px;
+}
+.network  {
+	position: relative;
+	padding: 2px;
+	right: 228px;
+	width: 140px;
+	bottom: 0px;
+	background-color: #2a8593;
+	top: 12px;
+}
+.following {
+	padding: 12px;
+	cursor: pointer;
+	position: relative;
+	margin: 12px;
+}
+.development {
+	padding: 12px;
+	cursor: pointer;
+	position: relative;
+	margin: 12px;
+}
+
+.links {
+	position: absolute;
+	padding-bottom: 6px;
+	background-image: url(themes/renovatio3d/img/img-links.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	width: 75px;
+	float: none;
+	height: 362px;
+	z-index: 100;
+	left: 0px;
+}
+.arc {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	clip: rect(auto,44px,auto,auto);
+	margin-bottom: 8px;
+	background-color: #0FF;
+	padding: 0px;
+	margin-left: 0px;
+}
+.links li ul {
+	position: relative;
+	height: 45px;
+	right: 67px;
+	width: 90px;
+}
+.links li {
+	position: absolute;
+	list-style-type: none;
+	width: 90px;
+}
+</style>
+
+
+<script type="text/javascript" src="javascript/jquery.comjquery-1.8.3.js"></script>
+
+
+<script type="text/javascript">
+
+
+ /*
+$(document).ready(function(){
+		
+		 $(".following").hover(function(){
+
+  $(".links").animate({opacity:'100px',bottom:'38px'},"slow").slideToggle();
+  
+  
+		 });
+});*/
+	$(document).ready(function() {
+	$(".following").mouseenter(function(e) 
+			{
+			$(".links").animate({bottom:'38px'},"slow").slideToggle();
+						 			
+	});
+			$(".following").mouseleave(function(){
+			$(".links").animate({opacity:'100px',bottom:'28px'},"slow").slideToggle();
+			
+		});
+		
+		
+			$("#twitter").mouseenter(function(e) 
+			{
+			$(".arc #twitter ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#tweet").css("opacity","100").fadeIn("slow");		 			
+	});
+	$(" .arc #twitter").mouseleave(function(e) 
+			{
+			$(" #twitter ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#tweet").css("display","none");			 			
+	});
+
+
+		$("#facebook").mouseenter(function(e) 
+			{
+			$(".arc #facebook ").animate({opacity:'100px',marginLeft:'-45px'},"slow");	
+			$("#face").css("opacity","100").fadeIn("slow");
+				 			
+	});
+	$(" .arc #facebook").mouseleave(function(e) 
+			{
+			$(" #facebook ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#face").css("display","none");
+					 			
+	});
+	
+		$("#mail").mouseenter(function(e) 
+			{
+			$(".arc #mail ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#email").css("opacity","100").fadeIn("slow");		 			
+	});
+	$(" .arc #mail").mouseleave(function(e) 
+			{
+			$(" #mail ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#email").css("display","none");			 			
+	});
+	
+		$("#linkedin").mouseenter(function(e) 
+			{
+			$(".arc #linkedin ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#in").css("opacity","100").fadeIn("slow");		 			
+	});
+	$(" .arc #linkedin").mouseleave(function(e) 
+			{
+			$(" #linkedin ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#in").css("display","none");			 			
+	});
+	
+			$("#youtube").mouseenter(function(e) 
+			{
+			$(".arc #youtube ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#videos").css("opacity","100").fadeIn("slow");			 			 			
+	});
+	$(" .arc #youtube").mouseleave(function(e) 
+			{
+			$(" #youtube ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#videos").css("display","none");			 			
+	});
+		
+				$("#vimeo").mouseenter(function(e) 
+			{
+			$(".arc #vimeo ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#video").css("opacity","100").fadeIn("slow");			 			
+	});
+	$(" .arc #vimeo").mouseleave(function(e) 
+			{
+			$(" #vimeo ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#video").css("display","none");				 			
+	});
+		
+				$("#behance").mouseenter(function(e) 
+			{
+			$(".arc #behance ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#be").css("opacity","100").fadeIn("slow");			 			
+	});
+	$(" .arc #behance").mouseleave(function(e) 
+			{
+			$(" #behance ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#be").css("display","none");			 			
+	});
+		
+		
+				$("#flickr").mouseenter(function(e) 
+			{
+			$(".arc #flickr ").animate({opacity:'100px',marginLeft:'-45px'},"slow");
+			$("#imgs").css("opacity","100").fadeIn("slow");			 			
+	});
+	$(" .arc #flickr").mouseleave(function(e) 
+			{
+			$(" #flickr ").animate({opacity:'100px',marginLeft:'0px'},"slow");
+			$("#imgs").css("display","none");			 			
+	});
+			
+});	
+
+/*
+$(document).ready(function()
+{
+$.ajax({ cache:false;});  
+var ajax-load ="<img class='loading' src ='img/loading.gif' alt='loading...'/>";
+var loadUrl ="library.html .ajax-content";
+$("#next-page").hide("show");
+}));
+$("bbtn").click(function()
+{
+$(".content").animate({right:'900px'},"slow").slideToggle();
+$(".content").fadeTo("slow"0);
+$(#"fbtn").animate({opacity:'100px';},"fast");
+},
+$("#next-page").fadeTo("slow" 100);
+$("#next-page").animate({height:'800px';},"slow").slideToggle();
+$(".content").hide("slow");
+}));
+});
+});
+<!--Loading In our AJAX-->
+var ajax-load ="<img class ='loading' src ='img/loading.gif' alt =' loading..'/>"; */
+</script>
+
+
+
+</head>
+
+<body>
+<div id="text"></div>
+<footer>
+
+
+<ul class="wrap">
+<li>Copyright ©2015, Renovatio3D All Rights Reserved.</li>
+<li><a href="http://www.studiorenovatio.com/" target="_blank"><span>Studio Renovatio</span></a></li>
+<li class="following">Follow Me On
+    
+ <ul class="links" style="bottom:0px; opacity:0px;display:none; margin-top:auto; margin-bottom:auto;">
+
+<li>
+<ul>
+<li class="arc">
+<a href="http://www.flickr.com/photos/90989020@N02/" target="_blank">
+<img src="themes/renovatio3d/img/flickr.png" id="flickr" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="imgs">
+<span>Fellow Me on Facebook</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="http://www.behance.net/Renovatio3d" target="_blank">
+<img src="themes/renovatio3d/img/behance-icon.png" id="behance" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="be">
+<span>Follow Me On Behance</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="https://vimeo.com/renovatio3d" target="_blank">
+<img src="themes/renovatio3d/img/vimeo_icon.png" id="vimeo" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="video">
+<span>Follow Me On Vimeo</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="http://www.youtube.com/user/Renovatio3d/videos" target="_blank">
+<img src="themes/renovatio3d/img/youtube-icon.png" id="youtube" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="videos">
+<span>Follow Me On Youtube!</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="http://www.linkedin.com/pub/shalu-jefferson-nah/6/156/381/" target="_blank">
+<img src="themes/renovatio3d/img/linkedin_icon.png" id="linkedin" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="in">
+<span>Follow Me On LinkedIn</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="mailto:renovatio3d@gmail.com">
+<img src="themes/renovatio3d/img/email_icon2.png" id="mail" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="email">
+<span>Contact me via email!</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="https://twitter.com/Renovatio3d" target="_blank">
+<img src="themes/renovatio3d/img/twitter-icon.png" id="twitter" style="display:block; bottom:0px;" alt="Renovatio3d on Twitter" width="90" height="45"></a>
+<!-- .arc--></li>
+<div class="network" style="display:none;" id="tweet">
+<span>Follow Me on Twitter</span>
+<!-- .network--></div>
+</ul>
+<ul>
+<li class="arc">
+<a href="http://www.facebook.com/Renovatio3d" target="_blank">
+<img src="themes/renovatio3d/img/facebook-icon.png" id="facebook"alt="Renovatio3d on Facebook" width="90" height="45"></a>
+<!-- .arc--></li>
+
+<div class="network" style="display:none; " id="face">
+<span>Follow Me on Facebook</span>
+<!-- .network--></div>
+
+</ul>
+</li>
+
+<!-- end .links--></ul>
+
+         </ul>
+</footer>
+</body>
+</html>

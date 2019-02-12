@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GALLERY COLUMNS="3" XPOSITION="90" YPOSITION="90" WIDTH="15" HEIGHT="280">
+<IMAGE FULL="rings_image/image1.png" THUMB="rings_thumb/thumb1.png" />
+<IMAGE FULL="rings_image/image2.png" THUMB="rings_thumb/thumb2.png" />
+</GALLERY>
